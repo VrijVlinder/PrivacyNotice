@@ -1,0 +1,83 @@
+#Body {
+margin:0 auto;
+color: white;
+background:transparent!important;
+width:100%;
+} 
+.Center{
+background:rgba(22,22,22,0.9);
+border:1px solid #666;
+margin:0 auto;
+font-weight:bold;
+}
+p{
+font-weight:bold;
+text-align: left;
+text-indent:10px;
+padding:0 10px 0;
+font-size: 16px;
+}
+#Content {
+width: 98%!important;
+margin: 0 auto;
+float: none!important;
+background:none!important;
+border:none!important;
+}
+#Content h1{
+font-size:25px!important;
+}
+#Panel{
+display:none!important;
+}
+
+    
+#Foot {
+background:none transparent!important;
+}
+h16{
+background:none transparent;
+font-size:16px;
+color:#ccc;
+text-align:left;
+}
+.Popup #Content {
+background:#333!important;
+margin-left:0!important;
+max-width:600px;
+overflow:auto;
+width:500px!important;
+}
+
+div.Popup .Body, div.Popup .Content{
+background:transparent;
+min-width: 420px;
+max-height: 600px;
+overflow-y: auto;
+overflow-x: hidden;
+width: 500px;
+}
+div.Popup .Head {
+background:transparent;
+}
+div.Popup .Center h2{
+background:transparent;
+color:#fff;
+
+}
+div.Popup .Center h2 p {
+padding: 6px 10px 10px;
+text-align: left;
+}
+div.Popup a.Close {
+color:#000;
+cursor: pointer;
+font-family: arial;
+font-size: 22px!important;
+font-weight: 700;
+line-height: 1;
+padding: 0;
+position: absolute;
+right: 80px;
+top: 16px;
+}

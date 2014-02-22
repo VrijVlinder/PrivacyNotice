@@ -1,0 +1,49 @@
+h16{
+background:none transparent;
+font-size:16px;
+color:#ccc;
+text-align:left;
+}
+.Popup #Content {
+background:#333!important;
+margin-left:0!important;
+max-width:600px;
+overflow:auto;
+width:500px!important;
+}
+
+div.Popup .Body, div.Popup .Content{
+background:transparent;
+min-width: 420px;
+max-height: 600px;
+overflow-y: auto;
+overflow-x: hidden;
+width: 500px;
+}
+div.Popup .Head {
+background:transparent;
+}
+div.Popup .Center h16{
+background:transparent;
+color:#fff;
+
+}
+
+div.Popup a.Close {
+color:#000;
+cursor: pointer;
+font-family: arial;
+font-size: 22px!important;
+font-weight: 700;
+line-height: 1;
+padding: 0;
+position: absolute;
+right: 80px;
+top: 16px;
+}
+div.Popup .Center h16 p,div.Popup p {
+color: #fff;
+padding: 6px 10px 10px;
+text-align: left!important;
+font-size:16px;
+}
